@@ -1,7 +1,17 @@
 import React from "react"
 
-function Signup() {
-  return <h1>Signup</h1>
+import Signup from "./Signup"
+
+import Navbar from "../Navbar"
+import Footer from "../Footer"
+function Hero() {
+  return (
+    <>
+      <Navbar />
+      <Signup />
+      <Footer />
+    </>
+  )
 }
 
-export default Signup
+export default Hero
